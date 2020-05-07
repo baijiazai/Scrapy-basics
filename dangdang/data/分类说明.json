@@ -1,0 +1,27 @@
+[
+  {
+    "class_name": "quanbu",
+    "big_class": "全部",
+    "small_class": ["成功/激励", "人际交往", "情商/情绪管理", "财商/财富智慧", "处世学"]
+  },
+  {
+    "class_name": "tushu",
+    "big_class": "图书",
+    "small_class": ["中医养生", "中老年养生", "心理健康", "健康百科", "性保健"]
+  },
+  {
+    "class_name": "tongshu",
+    "big_class": "童书",
+    "small_class": ["科普/百科", "阅读工具书", "励志/成长", "益智游戏", "幼儿启蒙"]
+  },
+  {
+    "class_name": "wenxue",
+    "big_class": "文学",
+    "small_class": ["中国现当代随笔", "戏剧", "纪实文学", "文学评论与鉴赏", "中国古诗词"]
+  },
+  {
+    "class_name": "jiaofu",
+    "big_class": "教辅",
+    "small_class": ["网络与数据通信", "数据库", "人工智能", "硬件外部设备维修", "计算机教材"]
+  }
+]
