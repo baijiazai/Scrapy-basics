@@ -20,3 +20,11 @@ class FourImagePipeline(ImagesPipeline):
 
     def file_path(self, request, response=None, info=None):
         return 'full/%s.jpg' % (request.meta['name'])
+
+
+class DongmanImagePipeline(ImagesPipeline):
+    def get_media_requests(self, item, info):
+        yield scrapy.Request(url=item['image_urls'], meta={'name': item['names']})
+
+    def file_path(self, request, response=None, info=None):
+        return 'dongman/%s.jpg' % request.meta['name']

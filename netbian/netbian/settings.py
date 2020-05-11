@@ -64,7 +64,8 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    'netbian.pipelines.FourImagePipeline': 300,
+    'netbian.pipelines.DongmanImagePipeline': 300,
+    # 'netbian.pipelines.FourImagePipeline': 300,
     # 'scrapy.pipelines.images.ImagesPipeline': 1
 }
 IMAGES_STORE = 'images'
